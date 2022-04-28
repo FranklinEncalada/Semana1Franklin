@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana1Franklin.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="18" CornerRadius="0">
+            <Label Text="Primera app Xamarin" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="semana de aplicaciones moviles" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+
+
+        <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
+
+        <Entry x:Name="txtApellido" Placeholder="Ingrese su apellido" />
+
+        <Entry x:Name="txtEdad" Keyboard="Numeric" Placeholder="Ingrese su edad"/>
+
+            <Button x:Name ="btnEviar" Text="enviar datos" Clicked="btnEviar_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>
